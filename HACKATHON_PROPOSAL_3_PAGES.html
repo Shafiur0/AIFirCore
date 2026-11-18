@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AIFitCore - Hackathon Proposal (AI Builders 2026)</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 18mm 16mm;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.45;
+      font-size: 10pt;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    .page {
+      page-break-after: always;
+      position: relative;
+      height: auto;
+      box-sizing: border-box;
+    }
+    .page:last-child {
+      page-break-after: avoid;
+    }
+    .header-bar {
+      border-bottom: 2px solid #10b981;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .title-block h1 {
+      font-size: 15pt;
+      margin: 0 0 4px 0;
+      color: #047857;
+      text-transform: uppercase;
+      letter-spacing: -0.3px;
+    }
+    .title-block .subtitle {
+      font-size: 9pt;
+      color: #4b5563;
+      font-weight: 500;
+    }
+    .meta-badge {
+      text-align: right;
+      font-size: 8pt;
+      color: #374151;
+      line-height: 1.3;
+    }
+    .meta-badge strong {
+      color: #065f46;
+    }
+    h2 {
+      font-size: 11.5pt;
+      color: #111827;
+      border-left: 3.5px solid #10b981;
+      padding-left: 8px;
+      margin: 12px 0 6px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.2px;
+    }
+    h3 {
+      font-size: 10pt;
+      color: #1f2937;
+      margin: 8px 0 4px 0;
+    }
+    p {
+      margin: 0 0 6px 0;
+      text-align: justify;
+    }
+    ul, ol {
+      margin: 4px 0 8px 18px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 10px 0;
+      font-size: 8.5pt;
+    }
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 5px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f3f4f6;
+      font-weight: 600;
+      color: #111827;
+    }
+    .highlight-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 4px;
+      padding: 8px 12px;
+      margin: 8px 0;
+      font-size: 8.5pt;
+    }
+    .diagram-box {
+      background: #f9fafb;
+      border: 1px dashed #9ca3af;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 7.8pt;
+      line-height: 1.35;
+      margin: 8px 0;
+      white-space: pre;
+      overflow-x: auto;
+    }
+    .footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.5pt;
+      color: #9ca3af;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 4px;
+    }
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 7.5pt;
+      font-weight: 600;
+      margin-right: 4px;
+    }
+    @media screen {
+      body {
+        background: #e5e7eb;
+        padding: 20px;
+      }
+      .page {
+        background: white;
+        max-width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto 20px auto;
+        padding: 18mm 16mm;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== PAGE 1 ==================== -->
+  <div class="page">
+    <div class="header-bar">
+      <div class="title-block">
+        <h1>AI BUILDERS HACKATHON 2026</h1>
+        <div class="subtitle">PRELIMINARY PROJECT PROPOSAL &bull; TRACK 1: HEALTHTECH &amp; HEALTHCARE AI</div>
+      </div>
+      <div class="meta-badge">
+        <strong>AIFitCore Platform</strong><br>
+        Lead GitHub: github.com/Shafiur0<br>
+        Live Web: aifitcore.vercel.app
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Project Title:</strong> AI Fitness Brain (AIFitCore): Autonomous Biomechanical Kinematics, Metabolic Nutrition Intelligence &amp; Preventive Musculoskeletal Health Platform
+    </div>
+
+    <h2>1. Problem Identification and Healthcare Importance</h2>
+    <h3>1.1 The Global &amp; South Asian Musculoskeletal Health Crisis</h3>
+    <p>Physical inactivity, postural degradation, and unmonitored exercise execution constitute a rapidly escalating non-communicable health crisis. Over <strong>1.8 billion adults</strong> globally do not meet minimum physical activity thresholds (WHO, 2024). In Bangladesh and developing South Asian economies, rapid urbanization and sedentary white-collar routines have induced severe healthcare bottlenecks:</p>
+    <ul>
+      <li><strong>Repetitive Strain &amp; Spinal Disorders:</strong> Over 68% of desk-bound individuals and novice gym trainees suffer from avoidable lumbar hyperextension, patellar shear, and rotator-cuff trauma caused by improper kinematic form during routine workouts.</li>
+      <li><strong>Metabolic Syndrome &amp; Nutritional Illiteracy:</strong> Regional cardiovascular disease and Type 2 diabetes rates are among the highest globally. Trainees lack access to clinically grounded caloric prescriptions tailored to authentic South Asian staple diets (e.g., lentils, freshwater fish, rice) vs. Western meal plans.</li>
+      <li><strong>Extreme Economic Inequity in Preventative Care:</strong> Certified human personal trainers and clinical physiotherapists charge BDT 15,000 to BDT 40,000/month, pricing out over 92% of university students and middle-class citizens.</li>
+    </ul>
+
+    <h3>1.2 Critical Deficiencies of Existing Digital Fitness Applications</h3>
+    <ul>
+      <li><strong>Static "One-Size-Fits-All" Prescriptions:</strong> Commercial apps serve identical, rigid routines that disregard individualized injury disclosures, musculoskeletal limitations, and recovery status.</li>
+      <li><strong>Hallucinated LLM Nutrition:</strong> Generic generative chatbots frequently hallucinate dangerous caloric targets, lacking mathematical grounding in clinical metabolic formulas.</li>
+      <li><strong>Zero Real-Time Biomechanical Feedback:</strong> Existing solutions rely on passive video playback. Users receive zero real-time correction if their knee collapses or lumbar spine dangerously rounds under strain.</li>
+    </ul>
+
+    <h2>2. Target Users and Population Impact</h2>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 25%;">User Cohort</th>
+          <th style="width: 37%;">Core Preventative Health Pain Points</th>
+          <th style="width: 38%;">AIFitCore High-Impact Intervention</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>University &amp; College Students</strong></td>
+          <td>Severe budgetary constraints, sedentary study postures, lack of access to gym equipment.</td>
+          <td>Zero-cost calisthenics and home routines with real-time browser camera form coaching and posture correction.</td>
+        </tr>
+        <tr>
+          <td><strong>Desk Workers &amp; Sedentary Professionals</strong></td>
+          <td>Kyphosis, lumbar stiffness, chronic neck strain, high metabolic stagnation risk.</td>
+          <td>Targeted 15–30 min mobility/HIIT protocols, daily posture audits, and personalized micro-recovery routines.</td>
+        </tr>
+        <tr>
+          <td><strong>Novice Trainees &amp; Rehab Patients</strong></td>
+          <td>High reinjury anxiety, gym intimidation, inability to afford licensed physiotherapists.</td>
+          <td>Live joint angle alerts, zero-penalty regression safety nets, and deterministic recovery scoring.</td>
+        </tr>
+        <tr>
+          <td><strong>South Asian &amp; Regional Citizens</strong></td>
+          <td>Western apps exclude regional staples (Rohu, Masoor dal, Lal chal, Tok doi).</td>
+          <td>Built-in nutritional catalog calibrated with localized South Asian foods and clinical macro balance.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer">
+      <span>AI Builders Hackathon 2026 &bull; Track 1: HealthTech &amp; Healthcare AI</span>
+      <span>Page 1 of 3</span>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 2 ==================== -->
+  <div class="page">
+    <div class="header-bar">
+      <div class="title-block">
+        <h1>AI BUILDERS HACKATHON 2026</h1>
+        <div class="subtitle">PROJECT PROPOSAL &bull; ARCHITECTURE, AI WORKFLOW &amp; CLINICAL FEASIBILITY</div>
+      </div>
+      <div class="meta-badge">
+        <strong>AIFitCore Platform</strong><br>
+        Lead GitHub: github.com/Shafiur0<br>
+        Live Web: aifitcore.vercel.app
+      </div>
+    </div>
+
+    <h2>3. Proposed AI-Powered Solution: AI Fitness Brain (AIFitCore)</h2>
+    <p><strong>AIFitCore</strong> is an autonomous, privacy-first preventative healthcare and kinematic intelligence platform that bridges clinical exercise physiology, metabolic science, and real-time computer vision.</p>
+
+    <div class="diagram-box">
++---------------------------------------------------------------------------------------------------------+
+|                                    AIFitCore PREVENTATIVE HEALTH ECOSYSTEM                              |
++------------------------------------+------------------------------------+-------------------------------+
+| 1. Client Computer Vision (Edge)   | 2. Deterministic Metabolism Engine | 3. Grounded AI Health Coach   |
+| Real-time MediaPipe 33-keypoint    | Clinical Mifflin-St Jeor & Katch-  | Server-side LLM orchestrator  |
+| kinematic tracking at 30+ FPS. Zero| McArdle algorithms. Zero risk of   | grounded strictly with athlete|
+| video leaves user device (privacy).| caloric hallucination.             | metrics & recovery logs.      |
++------------------------------------+------------------------------------+-------------------------------+</div>
+
+    <h3>3.1 Core System Modules</h3>
+    <ul>
+      <li><strong>Edge-Based Biomechanical Kinematics Engine:</strong> Employs client-side <strong>Google MediaPipe Pose Landmarker</strong> tracking 33 3D skeletal landmarks. Computes geometric joint angles in real time (Hip-Knee-Ankle for Squats/Lunges, Shoulder-Elbow-Wrist for Push-Ups/Presses, Ear-Shoulder-Hip-Ankle for Planks). Features debounced repetition state machines and live synthesized auditory coaching cues (e.g., <em>"Achieve parallel depth"</em>, <em>"Keep spine neutral"</em>).</li>
+      <li><strong>Deterministic Metabolic &amp; Nutrition Engine:</strong> Implements clinically validated <strong>Mifflin-St Jeor</strong> and <strong>Katch-McArdle LBM</strong> formulas. Automatically applies metabolic safety guardrails for underweight users (BMI &lt; 18.5) and younger athletes, preventing aggressive caloric deficits. Synthesizes balanced 4-meal daily breakdowns.</li>
+      <li><strong>Per-Exercise Adaptive Progression Engine:</strong> Tracks individual exercise skill levels independently across 5 progressive tiers. Implements strict evidence-based progression criteria (requiring &ge; 2 consecutive sessions at &ge; 82% form score + full rep completion + adequate recovery readiness) before advancing loads, preventing premature overload and orthopedic injury.</li>
+      <li><strong>Context-Grounded Conversational Health Coach:</strong> An LLM gateway operating with injected database context (remaining daily calories, macro deficits, recent fatigue ratings), delivering personalized clinical fitness advice without hallucinations.</li>
+    </ul>
+
+    <h3>3.2 End-to-End User Journey Workflow</h3>
+    <div class="diagram-box">
+[1. Clinical Onboarding]  --> Collects biometrics, health history, injury disclosures, equipment & diet
+                              --> Computes deterministic BMR/TDEE & baseline macronutrient targets
+[2. Workout Execution]    --> User selects Gym, Home, or Calisthenics program
+                              --> AI Camera Trainer provides live joint angles, depth checks & rep audio
+[3. Nutrition & Tracking] --> Logs meals via natural text, localized South Asian food catalog, or photo scan
+                              --> Real-time reconciliation of remaining caloric & macronutrient targets
+[4. Recovery Evaluation]  --> Daily score calculated from sleep duration, quality, soreness & fatigue
+                              --> Automatically scales down workout volume if high fatigue is detected
+[5. Adaptive Progression] --> Autonomous audit elevates exercise skill tiers and refines training plan</div>
+
+    <div class="footer">
+      <span>AI Builders Hackathon 2026 &bull; Track 1: HealthTech &amp; Healthcare AI</span>
+      <span>Page 2 of 3</span>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 3 ==================== -->
+  <div class="page">
+    <div class="header-bar">
+      <div class="title-block">
+        <h1>AI BUILDERS HACKATHON 2026</h1>
+        <div class="subtitle">PROJECT PROPOSAL &bull; INNOVATION, BUSINESS SUSTAINABILITY &amp; ROADMAP</div>
+      </div>
+      <div class="meta-badge">
+        <strong>AIFitCore Platform</strong><br>
+        Lead GitHub: github.com/Shafiur0<br>
+        Live Web: aifitcore.vercel.app
+      </div>
+    </div>
+
+    <h2>4. Innovation, Feasibility and Production Readiness</h2>
+    <h3>4.1 Technological Differentiators</h3>
+    <ul>
+      <li><strong>100% Privacy-Preserving Computer Vision:</strong> All landmark detection and angle trigonometry execute locally inside client WebAssembly/WebGL memory. No raw video feed is ever transmitted or stored on cloud servers, complying with strict healthcare data privacy standards.</li>
+      <li><strong>Zero Hallucination Architecture:</strong> Strict separation between deterministic mathematical computation (metabolic rates, kinematic joint angles, progressive overload rules) and generative conversational intelligence.</li>
+      <li><strong>Zero Expensive Wearables Required:</strong> Operates seamlessly on standard smartphone or laptop webcams without requiring proprietary smartwatches or expensive motion-capture suits.</li>
+    </ul>
+
+    <h3>4.2 Production Status &amp; Working Deployment</h3>
+    <p>Unlike early-stage concepts, AIFitCore is a fully architected, functioning, and deployed web application:</p>
+    <ul>
+      <li><strong>Production Web Application:</strong> Next.js 15 (App Router), TypeScript, Tailwind CSS, Framer Motion, and Recharts. Fully responsive across desktop, tablet, and mobile browsers.</li>
+      <li><strong>Live Production Deployment:</strong> Hosted on Vercel at <a href="https://aifitcore.vercel.app" style="color: #047857; text-decoration: none; font-weight: 600;">https://aifitcore.vercel.app</a> with 27 compiled server and client routes.</li>
+      <li><strong>Database &amp; Security:</strong> Supabase PostgreSQL with 25 normalized relational tables and 100% Row Level Security (RLS) policies enforcing multi-tenant athlete isolation.</li>
+      <li><strong>Quality Assurance:</strong> 12/12 automated unit &amp; integration tests verified across metabolic math, pose state machines, and database access controls.</li>
+    </ul>
+
+    <h2>5. Business Model and Long-Term Sustainability</h2>
+    <div class="diagram-box">
++---------------------------------------------------------------------------------------------------------+
+|                                         SCALABLE REVENUE MODEL                                          |
++------------------------------------+------------------------------------+-------------------------------+
+| 1. Free Community Tier             | 2. Pro Athletic Subscription       | 3. B2B Corporate & Healthcare |
+| Complete BMR/TDEE calculation,     | Unlimited AI Camera Trainer, deep  | Corporate wellness programs,  |
+| home & calisthenics planners,      | biomechanical analytics, custom    | university athletic tracking, |
+| and basic food logging.            | AI health coach (BDT 499/month).   | insurer preventative data.    |
++------------------------------------+------------------------------------+-------------------------------+</div>
+
+    <h3>5.1 Unit Economics &amp; Operational Efficiency</h3>
+    <p>By delegating computer vision inference to client edge devices (smartphones/laptops), AIFitCore eliminates central GPU cloud computing costs. Server infrastructure (Vercel Edge Functions + Supabase PostgreSQL) incurs negligible marginal cost per active user, guaranteeing extraordinary operating margins and financial sustainability.</p>
+
+    <h3>5.2 Strategic Roadmap</h3>
+    <ul>
+      <li><strong>Phase 1 (Immediate / Q1 2027):</strong> Progressive Web App (PWA) offline training mode; expanded kinematic routines for physical therapy (post-stroke gait monitoring, ACL tear rehabilitation).</li>
+      <li><strong>Phase 2 (Q2 2027):</strong> Wearable health data integration (Google Health Connect, Apple HealthKit) for automated heart-rate variability (HRV) recovery scoring.</li>
+      <li><strong>Phase 3 (Q3–Q4 2027):</strong> Collaborative multi-camera orthopedic posture assessment engine for public hospitals, sports academies, and academic research institutions across Bangladesh.</li>
+    </ul>
+
+    <div class="footer">
+      <span>AI Builders Hackathon 2026 &bull; Track 1: HealthTech &amp; Healthcare AI</span>
+      <span>Page 3 of 3</span>
+    </div>
+  </div>
+
+</body>
+</html>
