@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 224 35% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 35% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 35% 10%;
+    --primary: 82 100% 38%;
+    --primary-foreground: 224 40% 8%;
+    --secondary: 220 16% 91%;
+    --secondary-foreground: 224 35% 12%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 10% 42%;
+    --accent: 82 95% 44%;
+    --accent-foreground: 224 40% 8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 15% 86%;
+    --input: 220 15% 86%;
+    --ring: 82 100% 42%;
+    --radius: 0.9rem;
+  }
+
+  .dark {
+    --background: 226 32% 5%;
+    --foreground: 210 25% 96%;
+    --card: 224 28% 8%;
+    --card-foreground: 210 25% 96%;
+    --popover: 224 30% 7%;
+    --popover-foreground: 210 25% 96%;
+    --primary: 72 100% 50%;
+    --primary-foreground: 226 40% 6%;
+    --secondary: 224 24% 13%;
+    --secondary-foreground: 210 25% 95%;
+    --muted: 224 22% 12%;
+    --muted-foreground: 218 14% 63%;
+    --accent: 72 100% 50%;
+    --accent-foreground: 226 40% 6%;
+    --destructive: 0 75% 56%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 224 20% 16%;
+    --input: 224 20% 16%;
+    --ring: 72 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-[#CCFF00] selection:text-black;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom utility classes for commercial fitness aesthetic */
+.glass-card {
+  @apply bg-card/80 backdrop-blur-xl border border-border/80 shadow-xl;
+}
+
+.lime-glow {
+  box-shadow: 0 0 32px -6px rgba(204, 255, 0, 0.32);
+}
+
+.lime-gradient-text {
+  @apply bg-gradient-to-r from-[#CCFF00] via-[#76FF03] to-[#10B981] bg-clip-text text-transparent;
+}
